@@ -1,0 +1,377 @@
+body {
+    font-family: system-ui;
+    background: rgb(0, 0, 0);
+    color: purple;
+    text-align: center;
+    margin: 0;
+    
+  }
+  
+  h2 {
+    font-family: 'Courier New', Courier, monospace;
+    background: black;
+    color: white;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .container-nav {
+    display: flex;
+    margin: 1px;
+    padding: 10px;
+    max-width: 2000px;
+    height: 50px;
+    background-color: plum;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  li > a {
+    padding: 10px 24px;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .button-menu-toggle {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .column {
+      flex: 100%;
+    }
+  
+    .nav-links {
+      display: none;
+    }
+  
+    .button-menu-toggle {
+      display: block;
+      background-color: white;
+      border: none;
+      border-radius: 50px;
+      padding: 0 24px;
+      font-family: monospace;
+      font-weight: bold;
+      font-size: 20px;
+    }
+  
+    .nav-links-responsive {
+      position: absolute;
+      display: flex;
+      background-color: rgba(20, 20, 20, 0.95);
+      width: 100%;
+      height: 100%;
+      top: 70px;
+      left: 0;
+      flex-direction: column;
+      padding-top: 200px;
+      align-items: center;
+      gap: 70px;
+      font-size: 40px;
+    }
+  }
+  .image-container {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .image-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+
+
+
+
+
+  body {
+    font-family: system-ui;
+    background: rgb(0, 0, 0);
+    color: purple;
+    text-align: center;
+    margin: 0;
+  }
+  
+  h2 {
+    font-family: 'Courier New', Courier, monospace;
+    background: black;
+    color: white;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .container-nav {
+    display: flex;
+    margin: 1px;
+    padding: 10px;
+    max-width: 2000px;
+    height: 50px;
+    background-color: plum;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  li > a {
+    padding: 10px 24px;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .button-menu-toggle {
+    display: none;
+  }
+  
+  .image-container {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  body {
+    font-family: system-ui;
+    background: rgb(0, 0, 0);
+    color: purple;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 80px; /* Agregar margen inferior para el footer */
+  }
+  
+  h2 {
+    font-family: 'Courier New', Courier, monospace;
+    background: black;
+    color: white;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .container-nav {
+    display: flex;
+    margin: 1px;
+    padding: 10px;
+    max-width: 2000px;
+    height: 50px;
+    background-color: plum;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  li > a {
+    padding: 10px 24px;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .button-menu-toggle {
+    display: none;
+  }
+  
+  .image-container {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: plum;
+    padding: 20px;
+    color: black;
+    font-size: 18px;
+  }
+  
+  footer button {
+    background-color: black;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 16px;
+    color: plum;
+    cursor: pointer;
+  }
+  
+  form {
+    display: flex;
+    align-items: center;
+  }
+  
+  form label {
+    margin-right: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .column {
+      flex: 100%;
+    }
+  
+    .nav-links {
+      display: none;
+    }
+  
+    .button-menu-toggle {
+      display: block;
+      background-color: white;
+      border: none;
+      border-radius: 50px;
+      padding: 0 24px;
+      font-family: monospace;
+      font-weight: bold;
+      font-size: 20px;
+    }
+  
+    .nav-links-responsive {
+      position: absolute;
+      display: flex;
+      background-color: rgba(20, 20, 20, 0.95);
+      width: 100%;
+      height: 100%;
+      top: 70px;
+      left: 0;
+      flex-direction: column;
+      padding-top: 200px;
+      align-items: center;
+      gap: 70px;
+      font-size: 40px;
+    }
+  }
